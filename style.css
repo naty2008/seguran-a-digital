@@ -2,7 +2,7 @@
 
 :root {
     --branco: rgb(255, 255, 255);
-    --cor-de-fundo: hwb(182 64% 15%);
+    --cor-de-fundo: lab(42.36% 13.36 -52.36);
     --fundo-senha: #113966;
     --fundo-texto: #314d6d;
     --borda: #90b5e0;
