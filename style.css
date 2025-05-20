@@ -2,7 +2,7 @@
 
 :root {
     --branco: rgb(255, 255, 255);
-    --cor-de-fundo: hsl(4, 93%, 52%);
+    --cor-de-fundo: hwb(182 64% 15%);
     --fundo-senha: #113966;
     --fundo-texto: #314d6d;
     --borda: #90b5e0;
@@ -92,6 +92,7 @@ body {
 }
 
 .parametro-senha__botao {
+    background-color: var(--cor-de-fundo)
     background-color: var(--fundo-texto);
     color: var(--branco);
     border: 2px solid var(--borda);
@@ -132,7 +133,7 @@ label {
 
 .fraca {
     width: 25%;
-    background-color: hsl(353, 52%, 53%);
+    background-color: hwb(354 53% 15%);
 }
 
 .media {
